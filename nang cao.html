@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>advanced</title>
+</head>
+<body>
+   <form>
+       <fieldset style="width: 200px "><legend >Caculator</legend>
+        <table>
+            <tr><input style="width: 196px" id="resulst" type ="nummber" name = "input" ></tr><br />
+            <tr>
+                <input style="width: 50px"  value="(" type="button" onclick="resulst.value+= this.value"/>
+                <input style="width: 50px"  value=")" type="button" onclick="resulst.value+= this.value"/>
+                <input style="width: 50px"  value="%" type="button" onclick="resulst.value+= this.value"/>
+
+                <input style="width: 50px"  value="AC" type="button" onclick="resulst.value =''"/>
+            </tr>
+            <br/>
+            <tr >
+                <button style="width: 50px" value="7" type="button" onclick="resulst.value+= this.value">7</button>
+                <button style="width: 50px" value="8" type="button" onclick="resulst.value+= this.value">8</button>
+                <button style="width: 50px" value="9" type="button" onclick="resulst.value+= this.value">9</button>
+                <button style="width: 50px" value="+" type="button" onclick="resulst.value+= this.value">+</button>
+                <br />
+            <tr >
+                <button style="width: 50px" value="4" type="button" onclick="resulst.value+= this.value">4</button>
+                <button style="width: 50px" value="5" type="button" onclick="resulst.value+= this.value">5</button>
+                <button style="width: 50px" value="6" type="button" onclick="resulst.value+= this.value">6</button>
+                <button style="width: 50px" value="-" type="button" onclick="resulst.value+= this.value">-</button>
+                <br />
+            <tr >
+                <button style="width: 50px" value="1" type="button" onclick="resulst.value+= this.value">1</button>
+                <button style="width: 50px" value="2" type="button" onclick="resulst.value+= this.value">2</button>
+                <button style="width: 50px" value="3" type="button" onclick="resulst.value+= this.value">3</button>
+                <button style="width: 50px" value="*" type="button" onclick="resulst.value+= this.value">*</button>
+                <br />
+            <tr >
+
+                <button style="width: 50px" value="0" type="button" onclick="resulst.value+= this.value">0</button>
+                <button style="width: 50px" value="." type="button" onclick="resulst.value+= this.value">.</button>
+                <button style="width: 50px" value="=" type="button" onclick="resulst.value = eval(resulst.value)" >=</button>
+                <button style="width: 50px" value="/" type="button" onclick="resulst.value+= this.value" >/</button></tr><br />
+        </table>
+       </fieldset>
+    </form>
+
+</body>
+</html>
